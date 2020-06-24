@@ -8,12 +8,25 @@ and append any new episodes from the current date.
 
 ---
 
-## Formatting
+## Files
 - **urls.txt**
+	- This is the input file for the code
 	- The urls need to be the tv shows home page
 	- Each url needs to go on a new line
 	- Ensure that there are no empty lines
 
+- **episodes.txt**
+	- This is the output file for the code
+	- Each new episode found is appended to the end of the file
+	- You can delete or move the file if you want to restart it
+
+- **imdbscrape.py**
+	- This file is the script that finds new episodes
+	- You can run it with Python with or without command line arguments
+
+---
+
+## Formatting
 - **Command line Arguments**
 	- Option 1 (Default)
 		- No Arguments will append any new tv shows from the current day
